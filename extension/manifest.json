@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Parental Control",
+    "version": "1.0",
+    "description": "Block specific websites for parental control.",
+    "permissions": [
+      "storage",
+      "declarativeNetRequest"
+    ],
+    "host_permissions": [
+      "*://*/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parental Control</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Parental Control</h1>
+
+  <!-- Input for adding a website -->
+  <div>
+    <input 
+      type="text" 
+      id="siteInput" 
+      class="input-field" 
+      placeholder="Enter website to block" 
+      aria-label="Website to block"
+    >
+    <button 
+      id="addSite" 
+      class="add-button" 
+      aria-label="Add website to block"
+    >
+      Add
+    </button>
+  </div>
+
+  <!-- List of blocked websites -->
+  <ul id="blockedSites">
+    <li id="emptyMessage">No websites blocked yet.</li>
+  </ul>
+
+  <!-- Logout button -->
+  <button 
+    id="logoutButton" 
+    class="logout-button" 
+    aria-label="Logout from parental control"
+  >
+    Logout
+  </button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

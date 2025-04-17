@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Login</h1>
+  <div>
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button id="login">Login</button>
+    <button id="register">Register</button>
+  </div>
+  <p id="message"></p>
+  <script src="login.js"></script>
+  <ul id="blockedSites">
+    <!-- Example of a blocked site -->
+    <li>
+      example.com
+      <button class="remove-site" data-site="example.com">Remove</button>
+    </li>
+  </ul>
+</body>
+</html>

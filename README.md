@@ -1,35 +1,20 @@
-﻿# Parental--control-extension
- 🔐 Main Features
-Login System
+# 👨‍👩‍👧‍👦 Parental Control Chrome Extension
 
-Parent and Child users
+A Chrome extension that helps parents monitor and control their child’s online activity with features like URL blocking, search history tracking, content filtering, and usage time limits.
 
-Data stored in MongoDB
+---
 
-Dashboard
+## 🚀 Features
 
-Separate dashboards for parents and kids
+- 🔒 Login system (Parent & Child)
+- 🧑‍💻 Parent and Child Dashboards
+- 🚫 Website blocking (URL-based)
+- 🕵️‍♂️ Search & browsing history tracking
+- 🧠 AI-based content filtering
+- ⏱️ Daily time restrictions
+- 📢 Real-time alerts and notifications
+- ✅ Whitelisting of specific websites
+- 📊 Usage reports
 
-URL Blocking
+---
 
-Prevent access to specified sites
-
-Search History Tracking
-
-Logs browser activity
-
-Content Filtering
-
-AI/keyword-based detection of inappropriate content
-
-Time Limits
-
-Daily usage limits per child
-
-Alerts & Notifications
-
-Notify parent if blocked content is accessed
-
-Whitelisting
-
-Allow specific sites despite general rules
